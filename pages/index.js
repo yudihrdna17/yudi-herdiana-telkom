@@ -31,7 +31,7 @@ function Home(props) {
               <div className="mt-4 mr-0 mb-0 ml-0 sm:mt-0">
               
               <div className="mb-4 flex items-center">
-                <input type="text" className="w-full rounded-lg border border-gray-400 p-2" placeholder="Search username" onChange={(e) => setName(e.target.value)}/>
+                <input type="text" className="w-full rounded-lg border border-gray-400 p-2" value={newName} placeholder="Search username" onChange={(e) => setName(e.target.value)}/>
                 <button className="ml-2 rounded-lg bg-blue-500 p-2 text-white hover:bg-blue-600" onClick={() => findGit(newName)}>Search</button>
               </div>
               </div>
