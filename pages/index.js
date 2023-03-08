@@ -26,7 +26,7 @@ function Home(props) {
             <div className="pt-0 pr-4 pb-0 pl-4 mt-0 mr-auto mb-0 ml-auto sm:flex sm:items-center sm:justify-between">
               <div>
                 <p className="text-xl font-bold text-gray-900">{name.toUpperCase()} Repository Lists</p>
-                <p className="text-sm mt-1 mr-0 mb-0 ml-0 font-semi-bold text-gray-500">Show Repository By Username Git</p>
+                <p className="text-sm mt-1 mr-0 mb-0 ml-0 font-semi-bold text-gray-500">Show Repository by Git Username</p>
               </div>
               <div className="mt-4 mr-0 mb-0 ml-0 sm:mt-0">
               
